@@ -32,7 +32,7 @@ jobs:
 
       - name: Verify index.html exists
         run: |
-          if [ ! -f build/frontend/index.html ]; then
+          if [ ! -f dist/frontend/index.html ]; then
             echo "index.html not found!"
             exit 1
           fi

@@ -21,15 +21,14 @@ jobs:
           submodules: true
           lfs: false
 
-
-      - name: Pre-build check List files and directories
-        run: ls -alh
-        working-directory: ./dist/frontend
-
       - name: Install dependencies and build app
         run: |
           npm install --force
           npm run build  --verbose
+
+      - name: Pre-build check List files and directories
+        run: ls -alh
+        working-directory: ./dist/frontend
 
       - name: Verify index.html exists
         run: |

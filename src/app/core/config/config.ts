@@ -1,2 +1,2 @@
-export const API_URL = 'http://localhost:8080/';
-// export const API_URL = 'https://postshare.victoriousmeadow-63b25505.australiaeast.azurecontainerapps.io/';
+// export const API_URL = 'http://localhost:8080/';
+export const API_URL = 'https://blog-webapp.jollygrass-28037507.westus3.azurecontainerapps.io/';

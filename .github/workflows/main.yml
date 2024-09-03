@@ -35,4 +35,4 @@ jobs:
         uses: azure/cli@v1
         with:
           inlineScript: |
-            az storage blob upload-batch -d blogwebapp -s dist/frontend/ --account-name blogwebappstorage
+            az storage blob upload-batch -d blog-webapp -s dist/frontend/ --account-name blogwebappstorage

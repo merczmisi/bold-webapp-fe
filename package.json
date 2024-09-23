@@ -40,6 +40,7 @@
     "@angular-devkit/build-angular": "^17.3.9",
     "@angular/cli": "^16.2.10",
     "@angular/compiler-cli": "^17.3.12",
+    "@angular/localize": "^17.3.12",
     "@capacitor/cli": "^6.1.2",
     "@types/jasmine": "~4.3.0",
     "electron": "^30.0.2",
